@@ -1,4 +1,4 @@
-/* Общие стили */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -20,7 +20,7 @@ h1 {
     color: #333;
 }
 
-/* Стили для формы */
+
 form {
     display: flex;
     flex-direction: column;

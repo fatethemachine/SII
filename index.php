@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <option value="1500-2000$">1500-2000$</option>
                 <option value="более 2000$">более 2000$</option>
             </select>
-            
+
             <label for="screen_size">Диагональ экрана:</label>
             <select name="screen_size" id="screen_size" required>
                 <option value="13-14 дюймов">13-14 дюймов</option>

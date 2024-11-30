@@ -1,0 +1,15 @@
+C:\xampp\htdocs\SII\chatbot\bin\Debug\net6.0\chatbot.exe
+C:\xampp\htdocs\SII\chatbot\bin\Debug\net6.0\chatbot.deps.json
+C:\xampp\htdocs\SII\chatbot\bin\Debug\net6.0\chatbot.runtimeconfig.json
+C:\xampp\htdocs\SII\chatbot\bin\Debug\net6.0\chatbot.dll
+C:\xampp\htdocs\SII\chatbot\bin\Debug\net6.0\chatbot.pdb
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\chatbot.csproj.AssemblyReference.cache
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\chatbot.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\chatbot.AssemblyInfoInputs.cache
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\chatbot.AssemblyInfo.cs
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\chatbot.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\chatbot.dll
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\refint\chatbot.dll
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\chatbot.pdb
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\chatbot.genruntimeconfig.cache
+C:\xampp\htdocs\SII\chatbot\obj\Debug\net6.0\ref\chatbot.dll
