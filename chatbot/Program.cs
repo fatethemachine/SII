@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 class ChatBot
 {
-    
     static Dictionary<string, List<string>> platforms = new Dictionary<string, List<string>>()
     {
         { "Маркетплейсы", new List<string>
@@ -30,7 +29,6 @@ class ChatBot
         }
     };
 
-   
     static void Main(string[] args)
     {
         Console.WriteLine("Привет! Я чат-бот. Как я могу помочь?");
@@ -42,7 +40,7 @@ class ChatBot
 
         while (isRunning)
         {
-            string userInput = Console.ReadLine().ToLower(); 
+            string userInput = Console.ReadLine().ToLower();
 
             if (userInput == "выход")
             {
@@ -63,6 +61,7 @@ class ChatBot
             }
         }
     }
+
     static void ProvideParsingInfo()
     {
         Console.WriteLine("Парсинг — это процесс автоматического извлечения данных с веб-сайтов. Для парсинга обычно используют такие технологии, как:");
@@ -72,18 +71,29 @@ class ChatBot
         Console.WriteLine("\nПарсинг может быть полезен для анализа цен, сбора данных о товарах, новостях, информации о пользователях и многом другом.");
     }
 
-
     static void ListPlatforms()
     {
-        Console.WriteLine("Вот список площадок, разделенных по категориям:");
-
-        foreach (var category in platforms)
+        Console.WriteLine("Выберите категорию площадок:");
+        int index = 1;
+        foreach (var category in platforms.Keys)
         {
-            Console.WriteLine($"\n{category.Key}:");
-            foreach (var platform in category.Value)
+            Console.WriteLine($"{index}. {category}");
+            index++;
+        }
+
+        Console.Write("Введите номер категории: ");
+        if (int.TryParse(Console.ReadLine(), out int categoryNumber) && categoryNumber > 0 && categoryNumber <= platforms.Count)
+        {
+            string selectedCategory = new List<string>(platforms.Keys)[categoryNumber - 1];
+            Console.WriteLine($"\n{selectedCategory}:");
+            foreach (var platform in platforms[selectedCategory])
             {
                 Console.WriteLine($"- {platform}");
             }
+        }
+        else
+        {
+            Console.WriteLine("Неверный ввод. Попробуйте снова.");
         }
     }
 }
